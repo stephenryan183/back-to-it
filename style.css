@@ -1,0 +1,16 @@
+body 
+{
+    display: block;
+    color:antiquewhite;
+    background: red;
+    font-size:medium;
+    font-weight:lighter;
+    text-align:center;
+    margin-top: 5px;
+
+}
+
+.main{
+    background-color: aquamarine;
+    margin-top: 500px;
+}
