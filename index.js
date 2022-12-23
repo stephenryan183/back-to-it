@@ -55,6 +55,35 @@ var myVar = 11;
  //below is decrementing it
  myVar--;
 
+ //if you want quotes in your sting star odd with single quotes to contain those quotes you want in your string
+  var myStar = '<a href="http://www.example.com" target=" _blank">Link</a';
+
+//you can combine stings using the + symbol
+
+var myNewString = "this is the start." + "This is the end.";
+console.log(myNewString)
+
+//you can also use the += shortcut to combing the string as well
+
+var ourStr = "I come first.";
+ourStr += "I come second";
+console.log(ourStr)
+
+//you can add variables and strings together
+
+varourName ="freeCodeCamp";
+var ourStr = "hello, our name is" + ourName + " , how are you?";
 
 
+//.length will tell you how many charavters are in a string
+var lastNameLength = 0;
+var lastName ="LoveLace";
+lastNameLength = lastName.length;
+console.log(lastNameLength)  // when console logged it will give yout the answer as 8 because there are 8 letters in LoveLace
 
+//bracket nottation will help you find a letter in a string 
+
+var lastName ="LoveLace"
+
+firstLetterOfLasName = lastname[0]
+console.log(firstLetterOfLastName) // when console logged it will give us the answer of "L" because of bracket nottaion it starts with 0 moving forward
