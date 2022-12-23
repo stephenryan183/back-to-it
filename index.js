@@ -47,6 +47,14 @@ var quotient = 66 / 11;
 console.log(quotient)
 
 
+//below will show how you either incriment(+1) or decrement a number (-1)
+
+var myVar = 11;
+ //below is incremnting it
+ myVar++;
+ //below is decrementing it
+ myVar--;
+
 
 
 
