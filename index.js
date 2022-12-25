@@ -122,3 +122,15 @@ var ourArray = ["Stimpson", "J", "cat"];
 ourArray.shift(); //ourArray now equals ["J","cat"]
 ourArray.unshift("Happy");
 //ourArray noe equals ["Happy","J","cat"]
+
+
+
+
+//FUNCTIONS
+//A function will run a command you tell it to run as well as declaring a comand
+
+function ourReusableFunction() {
+  console.log("Heyya, Wolrd")
+}
+ourReusableFunction();
+//now everytime we run the "ourReusableFunction();" line in the consolit will tell us Heyya World
