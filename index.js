@@ -87,3 +87,38 @@ var lastName ="LoveLace"
 
 firstLetterOfLasName = lastname[0]
 console.log(firstLetterOfLastName) // when console logged it will give us the answer of "L" because of bracket nottaion it starts with 0 moving forward
+
+//an array could hold diffrent types of data
+var ourArray = [18,64, "help"]
+
+//you can specify what data you want to select in array by doint the following
+
+var ourArray =[18,64,89];
+var ourData = ourArray [0]; //equals 18
+
+//you can update an array by changing something in the array by doing tthe following
+
+var myArray = [18,64,99];
+myArray[0] = 45;
+console.log(myArray)  // the new answer would be [45,64,99]
+
+//you can force a second array in another array by using the .push finction
+
+var ourArray = ["Stimpson","j","cat"];
+ourArray.push(["happy","joy"]);
+console.log(ourArray) //answer would be ["Stimpson","j","cat",["happy","joy"]]
+
+//you may be able to remove an item from an array by using .pop
+
+var ourArray = [1,2,3];
+var removedFromOurArray = ourArray.pop();
+//removedFromOurArray now equals 3 and ourArray now equals[1,2](side note when using.pop the last variable in the array will be removed by default in this case it was the three unless specified diffrently)
+
+//the .shift function works exactly like the .pop function in an Array except it will remove the forst variable as oppsed to the last
+
+// the .unshift function will do the exact opposite of the .shift function and add something to the beggining of the array
+
+var ourArray = ["Stimpson", "J", "cat"];
+ourArray.shift(); //ourArray now equals ["J","cat"]
+ourArray.unshift("Happy");
+//ourArray noe equals ["Happy","J","cat"]
